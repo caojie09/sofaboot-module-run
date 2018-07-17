@@ -16,7 +16,7 @@ public class HelloController {
     private SampleService sampleService;
 
     @RequestMapping("/hello-sofamodule")
-    public String hessian3() throws IOException {
+    public String hello() throws IOException {
         return sampleService.message();
     }
 }
